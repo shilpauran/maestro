@@ -1,0 +1,4 @@
+{
+    "status": 400,
+    "message": "'net' is an invalid value for JSON parameter 'amountTypeCode'. Use one of the following values: GROSS, NET."
+}

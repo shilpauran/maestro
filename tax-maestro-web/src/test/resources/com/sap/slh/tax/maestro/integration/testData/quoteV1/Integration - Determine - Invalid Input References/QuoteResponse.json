@@ -1,0 +1,12 @@
+{
+    "status": 400,
+    "message": "The format of your request is invalid, review your request.",
+    "errorDetails": [        
+        {
+            "message": "The assigned product ID does not exist in the list of products."
+        },
+        {
+            "message": "The assigned party ID does not exist in the list of parties."
+        }
+    ]
+}

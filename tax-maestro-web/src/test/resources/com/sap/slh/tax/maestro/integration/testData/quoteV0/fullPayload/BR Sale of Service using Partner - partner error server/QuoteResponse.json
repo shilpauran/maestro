@@ -1,0 +1,5 @@
+{
+    "status": 500,
+    "type": "partner_did_not_resolve_taxes",
+    "message": "Tax Service cannot process the payload request due to an unexpected error. This error is returned by the SAP tax partner you configured in the 'TAXWEB-BR' destination. Contact your SAP tax partner."
+}

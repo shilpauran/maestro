@@ -1,0 +1,42 @@
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+javaw*
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
+/bin
+/.gradle/
+
+### Javaw Logs ##
+**/javaw_*.log
+
+# Auto-generated poms
+**/.flattened-pom.xml
+**/pom.xml.versionsBackup
+
+.checkstyle
+
+.env

@@ -1,0 +1,27 @@
+{
+    "id": "E2EV1SGBVATFR",
+    "date": "2019-05-14T15:18:27.000Z",
+    "currencyCode": "GBP",
+    "amountTypeCode": "NET",
+    "items": [
+        {
+            "id": "1",
+            "countryRegionCode": "GB",
+            "taxEventCode": "310",
+            "taxEventLegalPhrase": "",
+            "taxes": [
+                {
+                    "taxTypeCode": "1",
+                    "taxRate": 20.0,
+                    "taxableBaseAmount": 100.00,
+                    "taxAmount": 20.00,
+                    "dueCategoryCode": "PAYABLE",
+                    "isTaxDeferred": false
+                }
+            ],
+            "additionalInformation": {
+                "taxCode": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{  
+   "productClassifications":[  
+      {  
+         "productId":"EXEMPT_PROD",
+         "typeCode":"MATERIAL",
+         "productTaxClassifications":[  
+            {  
+               "countryRegionCode":"GB",
+               "taxTypeCode":"1",
+               "exemptionReasonCode":"3",
+               "isSoldElectronically":false,
+               "isServicePointTaxable":false
+            }
+         ]
+      }
+   ]
+}

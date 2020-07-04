@@ -1,0 +1,52 @@
+{
+   "id": "E2EV1SCABCNTGST",
+   "date": "2019-05-14T15:18:27.000Z",
+   "transactionTypeCode": "SALE",
+   "amountTypeCode": "NET",
+   "currencyCode": "CAD",
+   "companyInformation": {
+      "assignedPartyId": "1"
+   },
+   "items": [
+      {
+         "id": "1",
+         "assignedProductId": "1",
+         "quantity": 1,
+         "unitPrice": 100,
+         "assignedParties": [
+            {
+               "id": "1",
+               "role": "SHIP_FROM"
+            },
+            {
+               "id": "2",
+               "role": "SHIP_TO"
+            }
+         ]
+      }
+   ],
+   "products": [
+      {
+         "id": "1",
+         "typeCode": "MATERIAL"
+      }
+   ],
+   "parties": [
+      {
+         "id": "1",
+         "countryRegionCode": "CA",
+         "subdivisionCode": "BC",
+         "city": "Richmond",
+         "zipCode": "V6V 2B3",
+         "address": "13040 Worster Ct"
+      },
+      {
+         "id": "2",
+         "countryRegionCode": "CA",
+         "subdivisionCode": "NT",
+         "city": "Yellowknife",
+         "zipCode": "X1A 0C1",
+         "address": "4902 Franklin Ave"
+      }
+   ]
+}

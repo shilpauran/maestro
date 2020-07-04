@@ -1,0 +1,12 @@
+{
+    "status": 204,
+    "message": "Content not found.",
+    "errorDetails": [        
+        {
+            "message": "detail1."
+        },
+        {
+            "message": "detail2."
+        }
+    ]
+}

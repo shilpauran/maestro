@@ -1,0 +1,22 @@
+{
+  "status": "INVALID_REQUEST",
+  "processingStatusCode": "REQUEST_NOT_VALID",
+  "statusMessage": "Bad request.",
+  "result": null,
+  "error": {
+    "errorId": "TAXCALC-SB4WP0RFNH",
+    "details": [
+        {
+            "field": "date",
+            "message": "date format invalid.",
+            "errorCode": "DATE_INVALID"
+        },
+        {
+            "field": "items[0].taxEventCode",
+            "message": "taxEventCode cannot be blank.",
+            "errorCode": "ERROR_ITEM_TAXEVENTCODE_REQUIRED"
+        }
+    ]
+  },
+  "warning": null
+}

@@ -1,0 +1,5 @@
+{
+	"status": 500,
+	"type": "server_exception",
+	"message": "An unexpected error occurred while processing your request. Open a support request."
+}

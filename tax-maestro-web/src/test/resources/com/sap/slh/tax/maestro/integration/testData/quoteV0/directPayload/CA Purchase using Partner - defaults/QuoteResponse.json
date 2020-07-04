@@ -1,0 +1,43 @@
+{
+    "total": "565.0",
+    "inclusive": "false",
+    "subTotal": "500.0",
+    "totalTax": "65.0",
+    "country": "CA",
+    "taxLines": [
+        {
+            "id": "999999",
+            "country": "CA",
+            "totalTax": "65.0",
+            "taxcode": "511",
+            "taxCodeDescription": "Regular HST Sales",
+            "totalRate": "13.0000",
+            "taxValues": [
+                {
+                    "level": "COUNTRY",
+                    "taxTypeCode": "2",
+                    "name": "HST",
+                    "rate": "13.00",
+                    "taxable": "500.0",
+                    "value": "65.0",
+                    "jurisdiction": "CANADA",
+                    "jurisdictionCode": "8",
+                    "dueCategory": "P",
+                    "isTaxDeferred": false
+                },
+                {
+                    "level": "PROVINCE",
+                    "rate": "0.0",
+                    "taxable": "0.0",
+                    "value": "0.0",
+                    "jurisdiction": "ONTARIO",
+                    "jurisdictionCode": "44315",
+                    "dueCategory": "P",
+                    "isTaxDeferred": false
+                }
+            ]
+        }
+    ],
+    "date": "2018-10-11T00:00:00.000Z",
+    "partnerName": "PARTNER version 0001"
+}

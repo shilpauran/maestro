@@ -1,0 +1,5 @@
+{
+    "status": 400,
+    "type": "invalid_input",
+    "message": "The 'type' parameter, with one of the following values: CONTRACT_TO, SHIP_TO, is mandatory in this request. Add this parameter in an entry, under 'Locations'."
+}

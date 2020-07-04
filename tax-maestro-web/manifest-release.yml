@@ -1,0 +1,13 @@
+---
+applications:
+  - name: tax-maestro-release
+    path: target/tax-maestro-web.jar
+    disk_quota: 1G
+    instances: 1
+    memory: 1G
+    routes:
+      - route: tax-service-release.cfapps.sap.hana.ondemand.com/tax
+    services:
+      - rabbitmq
+      - xsuaa
+      - application-logs

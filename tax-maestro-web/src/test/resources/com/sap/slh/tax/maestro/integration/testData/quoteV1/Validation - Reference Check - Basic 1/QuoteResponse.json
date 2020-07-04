@@ -1,0 +1,18 @@
+{ 
+   "status":400,
+   "message":"The format of your request is invalid, review your request.",
+   "errorDetails":[ 
+      { 
+         "message":"Enter reference details for the 'assignedProductId' parameter with the 'X' ID, under 'items' 1."
+      },
+      { 
+         "message":"Enter reference details for the 'assignedProductId' parameter with the 'Y' ID, under 'items' 2."
+      },
+      { 
+         "message":"Enter reference details for the 'assignedParties' parameter with the '1' ID, under 'items' 2."
+      },
+      { 
+         "message":"Enter reference details for the 'assignedPartyId' parameter with the '1' ID, under 'companyInformation'."
+      }
+   ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "JK_02",
+    "date": "2020-05-11T08:18:27.000Z",
+    "currencyCode": "EUR",
+    "amountTypeCode": "NET",
+    "items": [
+        {
+            "id": "1",
+            "countryRegionCode": "NL",
+            "taxEventCode": "500",
+            "taxEventLegalPhrase": "",
+            "taxes": [
+                {
+                    "taxTypeCode": "1",
+                    "taxRate": 0,
+                    "taxableBaseAmount": 1000,
+                    "taxAmount": 0,
+                    "dueCategoryCode": "PAYABLE",
+                    "isTaxDeferred": false
+                }
+            ],
+            "additionalInformation": {
+                "taxCode": ""
+            }
+        }
+    ]
+}

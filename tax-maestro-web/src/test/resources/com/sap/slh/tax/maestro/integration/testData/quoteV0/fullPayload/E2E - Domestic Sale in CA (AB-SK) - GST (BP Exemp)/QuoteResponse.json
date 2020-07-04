@@ -1,0 +1,34 @@
+{
+    "date": "2019-05-14T15:18:27.000Z",
+    "inclusive": "false",
+    "country": "CA",
+    "taxLines": [
+        {
+            "id": "1",
+            "country": "CA",
+            "taxcode": "",
+            "taxCodeLegalPhrase": "",
+            "taxValues": [
+                {
+                    "taxTypeCode": "1",
+                    "rate": "0.0",
+                    "taxable": "100.00",
+                    "value": "0.00",
+                    "dueCategory": "P",
+                    "isTaxDeferred": false,
+                    "withholdingRelevant": false
+                },
+                {
+                    "taxTypeCode": "3",
+                    "rate": "6.0",
+                    "taxable": "100.00",
+                    "value": "6.00",
+                    "dueCategory": "P",
+                    "isTaxDeferred": false,
+                    "withholdingRelevant": false
+                }
+            ]
+        }
+    ],
+    "partnerName": "Tax Service"
+}

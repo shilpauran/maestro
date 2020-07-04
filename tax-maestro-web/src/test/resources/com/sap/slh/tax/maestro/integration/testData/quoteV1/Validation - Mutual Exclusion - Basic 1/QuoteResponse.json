@@ -1,0 +1,12 @@
+{
+    "status": 400,
+    "message": "The format of your request is invalid, review your request.",
+    "errorDetails": [        
+        {
+            "message": "Provide only one of the following attributes for the 'products' parameter: [masterDataProductId; typeCode], under 'products' 1."
+        },
+        {
+            "message": "Provide only one of the following attributes for the 'products' parameter: [masterDataProductId; taxClassifications], under 'products' 1."
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+---
+applications:
+  - name: ((test))-tax-maestro
+    path: target/tax-maestro-web.jar
+    disk_quota: 1G
+    instances: 1
+    memory: 1G   
+    routes:
+      - route: tax-service-((test)).internal.cfapps.sap.hana.ondemand.com/tax
+    services:
+      - ((test))-rabbitmq
+      - ((test))-xsuaa
+      - ((test))-application-logs

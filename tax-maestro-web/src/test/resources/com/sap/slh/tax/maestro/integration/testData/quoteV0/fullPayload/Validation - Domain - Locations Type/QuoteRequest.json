@@ -1,0 +1,71 @@
+{
+	"id": "248A07649F301ED9B3FF78C7219DF45A",
+	"date": "2019-09-05T18:39:49.000Z",
+	"saleorPurchase": "s",
+	"operationNatureCode": "S",
+	"grossOrNet": "n",
+	"currency": "BRL",
+	"Items": [
+		{
+			"id": "000010",
+			"itemCode": "STO_MAT_TEST",
+			"itemType": "M",
+			"quantity": "10.000",
+			"unitPrice": "110.000000000000",
+			"itemClassifications": [
+				{
+					"itemStandardClassificationSystemCode": "ncm",
+					"itemStandardClassificationCode": "33030020"
+				}
+			],
+			"additionalItemInformation": [
+				{
+					"type": "materialOrigin",
+					"information": "1"
+				}
+			]
+		}
+	],
+	"Locations": [
+		{
+			"type": "SHIP_FROM",
+			"addressLine1": "Av.das Nações Unid 14.171, 6o",
+			"zipCode": "04795-100",
+			"city": "São Paulo",
+			"state": "SP",
+			"country": "BR"
+		},
+		{
+			"type": "SHIP_T",
+			"addressLine1": "Av.João Dias 745",
+			"zipCode": "04500-005",
+			"city": "São Paulo",
+			"state": "SP",
+			"country": "BR"
+		}
+	],
+	"Party": [
+		{
+			"id": "1",
+			"role": "SHIP_FROM",
+			"taxRegistration": [
+				{
+					"locationType": "SHIP_FROM",
+					"taxNumber": "74544297000273",
+					"taxNumberTypeCode": "CNPJ"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"role": "SHIP_TO",
+			"taxRegistration": [
+				{
+					"locationType": "SHIP_TO",
+					"taxNumber": "00379771000212",
+					"taxNumberTypeCode": "CNPJ"
+				}
+			]
+		}
+	]
+}

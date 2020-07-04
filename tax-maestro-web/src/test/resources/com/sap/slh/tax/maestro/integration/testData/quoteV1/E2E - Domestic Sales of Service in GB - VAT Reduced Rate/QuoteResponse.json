@@ -1,0 +1,27 @@
+{
+    "id": "11111101",
+    "date": "2019-05-14T15:18:27.000Z",
+    "currencyCode": "GBP",
+    "amountTypeCode": "NET",
+    "items": [
+        {
+            "id": "1",
+            "countryRegionCode": "GB",
+            "taxEventCode": "350",
+            "taxEventLegalPhrase": "",
+            "taxes": [
+                {
+                    "taxTypeCode": "1",
+                    "taxRate": 5.0,
+                    "taxableBaseAmount": 100.00,
+                    "taxAmount": 5.00,
+                    "dueCategoryCode": "PAYABLE",
+                    "isTaxDeferred": false
+                }
+            ],
+            "additionalInformation": {
+                "taxCode": ""
+            }
+        }
+    ]
+}

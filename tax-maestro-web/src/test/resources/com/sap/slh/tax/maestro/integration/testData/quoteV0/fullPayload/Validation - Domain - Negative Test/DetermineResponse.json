@@ -1,0 +1,5 @@
+{
+  "status": "FAILURE",
+  "processingStatusCode": "TAX_ATTRIBUTES_DETERMINATION_FAILURE",
+  "statusMessage": "Not able to fetch tax attributes"
+}

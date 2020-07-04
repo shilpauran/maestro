@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>tax-maestro-web</artifactId>
+	<name>${project.artifactId}</name>
+	<description>Tax Maestro Service</description>
+	<packaging>jar</packaging>
+
+	<parent>
+		<groupId>com.sap.slh.tax</groupId>
+		<artifactId>tax-maestro</artifactId>
+		<version>${revision}</version>
+	</parent>
+
+	<properties>
+		<spring-boot.version>2.2.4.RELEASE</spring-boot.version>
+		<spring-xsuaa.version>2.1.0</spring-xsuaa.version>
+		<cucumber.version>4.3.1</cucumber.version>
+		<karate.version>0.9.5.RC5</karate.version>
+		<cf-logging-version>3.0.8</cf-logging-version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<!-- Import dependency management from Spring Boot -->
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>${spring-boot.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.sap.hcp.cf.logging</groupId>
+			<artifactId>cf-java-logging-support-logback</artifactId>
+			<version>${cf-logging-version}</version>
+		</dependency>
+
+		<!--comes from spring-xsuaa-test:2.1.0. This explicit declaration can be
+			removed in the future if spring is update with a newer version -->
+		<dependency>
+			<groupId>org.springframework.security.oauth</groupId>
+			<artifactId>spring-security-oauth2</artifactId>
+			<version>2.4.0.RELEASE</version>
+		</dependency>
+
+		<!--comes from sspring-security-oauth2:2.4.0. This explicit declaration can be
+			removed in the future if spring is updated with a newer version -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+			<version>5.2.4.RELEASE</version>
+		</dependency>
+
+		<!--comes from spring-boot-dependencies:2.2.4. This explicit declaration can be
+			removed in the future if spring is updated with a newer version -->
+		<dependency>
+		    <groupId>io.netty</groupId>
+		    <artifactId>netty-codec</artifactId>
+		    <version>4.1.48.Final</version>
+		</dependency>
+
+		<!--comes from spring-boot-starter-webflux:2.2.4. This explicit declaration
+			can be removed in the future if spring is update with a newer version -->
+		<dependency>
+			<groupId>io.projectreactor.netty</groupId>
+			<artifactId>reactor-netty</artifactId>
+			<version>0.9.5.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.slh.tax</groupId>
+			<artifactId>tax-maestro-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.slh.tax</groupId>
+			<artifactId>taxattributesdetermination-client-model</artifactId>
+			<version>1.1.0-20200515230832_1b5724cf5bfbe3217668113e2febf40c4a97ad82</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.slh.tax</groupId>
+			<artifactId>taxcalculationservice-client-models</artifactId>
+			<version>1.1.0-20200518104727_e4e38edf70803e33d5fe623a0c17b6b98bbe52d1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.slh.tax</groupId>
+			<artifactId>product-tax-classification-models</artifactId>
+			<version>1.1.0-20200515212634_13f8851b0010ba3f0591476a1669ceb888f9e4ee</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.slh.tax</groupId>
+			<artifactId>tax-destination-configuration-models</artifactId>
+			<version>1.1.0-20200518200832_f4288c858cb26052a89b751eeb73b5ee8141b818</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.ben-manes.caffeine</groupId>
+			<artifactId>caffeine</artifactId>
+			<version>2.6.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.nimbusds</groupId>
+			<artifactId>nimbus-jose-jwt</artifactId>
+			<version>7.8.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.cloud.security.xsuaa</groupId>
+			<artifactId>spring-xsuaa</artifactId>
+			<version>${spring-xsuaa.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>provided</scope>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.cloud.security.xsuaa</groupId>
+			<artifactId>spring-xsuaa-test</artifactId>
+			<version>${spring-xsuaa.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.projectreactor</groupId>
+			<artifactId>reactor-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-spring</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.cloud.security.xsuaa</groupId>
+			<artifactId>spring-xsuaa-mock</artifactId>
+			<version>${spring-xsuaa.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.jparams</groupId>
+			<artifactId>to-string-verifier</artifactId>
+			<version>1.4.7</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>nl.jqno.equalsverifier</groupId>
+			<artifactId>equalsverifier</artifactId>
+			<version>3.1.9</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.intuit.karate</groupId>
+			<artifactId>karate-apache</artifactId>
+			<version>${karate.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.intuit.karate</groupId>
+			<artifactId>karate-junit4</artifactId>
+			<version>${karate.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.masterthought</groupId>
+			<artifactId>cucumber-reporting</artifactId>
+			<version>5.0.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${spring-boot.version}</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+						<configuration>
+							<mainClass>com.sap.slh.tax.maestro.MaestroApplication</mainClass>
+							<excludeDevtools>true</excludeDevtools>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

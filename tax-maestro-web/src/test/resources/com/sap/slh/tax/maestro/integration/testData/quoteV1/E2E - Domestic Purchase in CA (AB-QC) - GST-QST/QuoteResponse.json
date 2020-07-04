@@ -1,0 +1,42 @@
+{
+    "id": "E2EV1PCAABQCGSTQST",
+    "date": "2019-05-14T15:18:27.000Z",
+    "currencyCode": "CAD",
+    "amountTypeCode": "NET",
+    "items": [
+        {
+            "id": "1",
+            "countryRegionCode": "CA",
+            "subdivisionCode": "QC",
+            "taxEventCode": "13",
+            "taxEventLegalPhrase": "",
+            "taxes": [
+                {
+                    "taxTypeCode": "1",
+                    "taxRate": 5.0,
+                    "taxableBaseAmount": 100.00,
+                    "taxAmount": 5.00,
+                    "dueCategoryCode": "RECEIVABLE",
+                    "isTaxDeferred": false,
+                    "nonDeductibleTaxRate": 0.0,
+                    "deductibleTaxAmount": 5.00,
+                    "nonDeductibleTaxAmount": 0.00
+                },
+                {
+                    "taxTypeCode": "4",
+                    "taxRate": 9.975,
+                    "taxableBaseAmount": 100.00,
+                    "taxAmount": 9.98,
+                    "dueCategoryCode": "RECEIVABLE",
+                    "isTaxDeferred": false,
+                    "nonDeductibleTaxRate": 0.0,
+                    "deductibleTaxAmount": 9.98,
+                    "nonDeductibleTaxAmount": 0.00
+                }
+            ],
+            "additionalInformation": {
+                "taxCode": ""
+            }
+        }
+    ]
+}

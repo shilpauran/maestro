@@ -1,0 +1,21 @@
+{
+    "id": "1234565456",
+    "companyId": "2910",
+    "date": "2018-10-11T15:18:27.000Z",
+    "currency": "CAD",
+    "grossOrNet": "g",
+    "saleorPurchase": "P",
+    "isCompanyDeferredTaxEnabled": "N",
+    "Items": [
+        {
+            "id": "999999",
+            "quantity": "1.000",
+            "unitPrice": "500.00",
+            "itemType": "M",
+            "taxCategory": "PRODUCT_TAXES",
+            "taxCodeCountry": "CA",
+            "taxCode": "11",
+            "taxCodeRegion": "QC"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "status": 400,
+    "type": "invalid_input",
+    "message": "'SHIP_F' is an invalid value for JSON parameter 'Items[0].exemptionDetails[0].LocationType'. Use one of the following values: SHIP_FROM, SHIP_TO, CONTRACT_FROM, CONTRACT_TO, SERVICE_LOCATION."
+}

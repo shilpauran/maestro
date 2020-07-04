@@ -1,0 +1,5 @@
+{
+    "status": 504,
+    "type": "partner_did_not_resolve_taxes",
+    "message": "The payload request tax service sent to the SAP tax partner configured in the 'VERTEX-CA' destination has timed out by the gateway. Contact your SAP tax partner."
+}

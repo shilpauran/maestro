@@ -1,0 +1,5 @@
+{
+    "status" : 400,
+    "type": "invalid_input",
+    "message": "NC is invalid for item with ID 10"
+}

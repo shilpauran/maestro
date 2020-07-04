@@ -1,0 +1,16 @@
+{
+    "id": "1234565456",
+    "date": "2018-10-11T15:18:27.000Z",
+    "currency": "CAD",
+    "Items": [
+        {
+            "id": "999999",
+            "taxCategory": "PRODUCT_TAXES",
+            "taxCodeCountry": "CA",
+            "taxCodeRegion": "ON",
+            "taxCode": "511",
+            "quantity": "1.000",
+            "unitPrice": "500.00"
+        }
+    ]
+}

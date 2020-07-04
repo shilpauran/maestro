@@ -1,0 +1,75 @@
+{
+    "id": "JK_02",
+    "date": "2020-05-11T08:18:27.000Z",
+    "transactionTypeCode": "SALE",
+    "amountTypeCode": "NET",
+    "currencyCode": "EUR",
+    "companyInformation": {
+        "assignedPartyId": "1"
+    },
+    "items": [
+        {
+            "id": "1",
+            "assignedProductId": "P123",
+            "quantity": 1,
+            "unitPrice": 1000,
+            "assignedParties": [
+                {
+                    "id": "1",
+                    "role": "SHIP_FROM"
+                },
+                {
+                    "id": "2",
+                    "role": "SHIP_TO"
+                }
+            ]
+        }
+    ],
+    "products": [
+        {
+            "id": "P123",
+            "typeCode": "SERVICE",
+            "taxClassifications": [
+                {
+                    "countryRegionCode": "DE",
+                    "subdivisionCode": "",
+                    "taxTypeCode": "1",
+                    "exemptionReasonCode": "",
+                    "isSoldElectronically": true
+                },
+                {
+                    "countryRegionCode": "BE",
+                    "subdivisionCode": "",
+                    "taxTypeCode": "1",
+                    "exemptionReasonCode": "",
+                    "isSoldElectronically": true
+                }
+            ],
+            "standardClassifications": [
+                {
+                    "classificationSystem": "123",
+                    "productCode": "123"
+                }
+            ]
+        }
+    ],
+    "parties": [
+        {
+            "id": "1",
+            "countryRegionCode": "DE",
+            "subdivisionCode": "",
+            "city": "",
+            "zipCode": "",
+            "address": ""
+
+        },
+        {
+            "id": "2",
+            "countryRegionCode": "BE",
+            "subdivisionCode": "",
+            "city": "",
+            "zipCode": "",
+            "address": ""
+        }
+    ]
+}

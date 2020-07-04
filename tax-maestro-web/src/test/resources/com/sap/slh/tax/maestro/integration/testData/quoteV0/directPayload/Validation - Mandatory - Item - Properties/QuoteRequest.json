@@ -1,0 +1,15 @@
+{
+ "id":"1234565456",
+ "companyId": "2910",
+ "date":"2018-10-11T15:18:27.000Z",
+ "saleorPurchase":"P",
+ "grossOrNet":"g",
+ "currency":"CAD",
+ "Items":
+ [
+  {   
+   "id":"999999",
+   "taxCode": "2"
+  }
+ ]
+}

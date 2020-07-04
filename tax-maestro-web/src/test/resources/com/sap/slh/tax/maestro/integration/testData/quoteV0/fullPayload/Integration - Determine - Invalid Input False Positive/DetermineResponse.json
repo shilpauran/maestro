@@ -1,0 +1,22 @@
+{
+  "status": "INVALID_REQUEST",
+  "processingStatusCode": "REQUEST_NOT_VALID",
+  "statusMessage": "We were not able to fetch the tax attributes for this request; please check the errors for details.",
+  "result": null,
+  "error": {
+    "errorId": "TAXDET-SB4WP0RFNH",
+    "details": [
+        {
+            "field": "items[0].assignedProductId",
+            "message": "The assigned product ID does not exist in the list of products.",
+            "errorCode": "INVALID_PRODUCT_ID"
+        },
+        {
+            "field": "items[0].assignedParties[0].id",
+            "message": "The assigned party ID does not exist in the list of parties.",
+            "errorCode": "INVALID_PARTY_ID"
+        }
+    ]
+  },
+  "warning": null
+}

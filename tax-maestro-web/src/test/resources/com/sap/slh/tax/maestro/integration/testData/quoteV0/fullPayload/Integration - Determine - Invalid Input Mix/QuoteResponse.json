@@ -1,0 +1,5 @@
+{
+    "status": 400,
+    "type": "invalid_input",
+    "message": "We were not able to fetch the tax attributes for this request; please check the errors for details. The item id must not be blank and must be between 1 and 32 characters."
+}

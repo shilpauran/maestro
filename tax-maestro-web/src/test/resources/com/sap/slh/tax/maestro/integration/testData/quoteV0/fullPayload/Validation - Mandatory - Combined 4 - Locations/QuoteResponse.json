@@ -1,0 +1,5 @@
+{
+    "status": 400,
+    "type": "invalid_input",
+    "message": "The 'Locations' parameter is mandatory in a request."
+}

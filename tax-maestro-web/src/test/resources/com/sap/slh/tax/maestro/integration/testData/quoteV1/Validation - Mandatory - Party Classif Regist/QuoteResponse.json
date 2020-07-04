@@ -1,0 +1,12 @@
+{
+    "status": 400,
+    "message": "The format of your request is invalid, review your request.",
+    "errorDetails": [
+        {
+            "message": "The 'exemptionReasonCode' parameter is mandatory in a request, under 'taxClassifications', under 'parties' 1."
+        },
+        {
+            "message": "The 'type' parameter is mandatory in a request, under 'taxRegistrations', under 'parties' 2."
+        }
+    ]
+}

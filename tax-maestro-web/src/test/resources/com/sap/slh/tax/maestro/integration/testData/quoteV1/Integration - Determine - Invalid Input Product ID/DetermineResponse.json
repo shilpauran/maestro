@@ -1,0 +1,17 @@
+{
+  "status": "INVALID_REQUEST",
+  "processingStatusCode": "REQUEST_NOT_VALID",
+  "statusMessage": "We were not able to fetch the tax attributes for this request; please check the errors for details.",
+  "result": null,
+  "error": {
+    "errorId": "TAXDET-SB4WP0RFNH",
+    "details": [
+        {
+            "field": "products[1].id",
+            "message": "The ID for this product is already taken. Please use a product ID that is unique.",
+            "errorCode": "NON_UNIQUE_PRODUCT"
+        }
+    ]
+  },
+  "warning": null
+}

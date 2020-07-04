@@ -1,0 +1,4 @@
+{
+    "status": 400,
+    "message": "'S' is an invalid value for JSON parameter 'products[0].typeCode'. Use one of the following values: SERVICE, MATERIAL."
+}

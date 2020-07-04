@@ -1,0 +1,5 @@
+{
+    "status": 400,
+    "type": "invalid_content",
+    "message": "The URL domain configured in destination 'Dummy-DO' is not recognized by the tax service. Verify the URL domain for this destination in SAP Cloud Platform. If the error persists, contact your SAP tax partner."
+}

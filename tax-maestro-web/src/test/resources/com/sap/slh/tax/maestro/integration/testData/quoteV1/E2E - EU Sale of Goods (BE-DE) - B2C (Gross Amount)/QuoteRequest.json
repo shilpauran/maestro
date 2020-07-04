@@ -1,0 +1,74 @@
+{
+    "id": "JK_02",
+    "date": "2020-05-11T08:18:27.000Z",
+    "transactionTypeCode": "SALE",
+    "amountTypeCode": "GROSS",
+    "currencyCode": "EUR",
+    "companyInformation": {
+        "assignedPartyId": "1"
+    },
+    "items": [
+        {
+            "id": "1",
+            "assignedProductId": "P123",
+            "quantity": 1,
+            "unitPrice": 1210,
+            "assignedParties": [
+                {
+                    "id": "1",
+                    "role": "SHIP_FROM"
+                },
+                {
+                    "id": "2",
+                    "role": "SHIP_TO"
+                }
+            ]
+        }
+    ],
+    "products": [
+        {
+            "id": "P123",
+            "typeCode": "MATERIAL",
+            "taxClassifications": [
+                {
+                    "countryRegionCode": "BE",
+                    "subdivisionCode": "",
+                    "taxTypeCode": "1",
+                    "taxRateTypeCode": "1",
+                    "exemptionReasonCode": ""
+                }
+            ],
+            "standardClassifications": [
+                {
+                    "classificationSystem": "123",
+                    "productCode": "123"
+                }
+            ]
+        }
+    ],
+    "parties": [
+        {
+            "id": "1",
+            "countryRegionCode": "BE",
+            "subdivisionCode": "",
+            "city": "",
+            "zipCode": "",
+            "address": "",
+            "taxRegistrations": [
+                {
+                    "type": "1",
+                    "number": "",
+                    "countryRegionCode": "BE"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "countryRegionCode": "DE",
+            "subdivisionCode": "",
+            "city": "",
+            "zipCode": "",
+            "address": ""
+        }
+    ]
+}

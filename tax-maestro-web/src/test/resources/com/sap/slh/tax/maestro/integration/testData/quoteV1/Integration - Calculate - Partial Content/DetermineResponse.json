@@ -1,0 +1,26 @@
+{
+  "status": "SUCCESS",
+  "processingStatusCode": "TAX_ATTRIBUTES_FETCHED_SUCCESSFULLY",
+  "statusMessage": "Tax attributes fetched successfully",
+  "result": {
+    "id": "SO_1",
+    "items": [
+      {
+        "id": "0010",
+        "countryRegionCode": "GB",
+        "subdivisionCode": "WLS",
+        "taxEventCode": "330",
+        "taxCode": "505",
+        "taxes": [
+          {
+            "id": "1",
+            "taxTypeCode": "2",
+            "taxRate": 5,
+            "dueCategoryCode": "PAYABLE",
+            "nonDeductibleTaxRate":100
+          }
+        ]
+      }
+    ]
+  }
+}

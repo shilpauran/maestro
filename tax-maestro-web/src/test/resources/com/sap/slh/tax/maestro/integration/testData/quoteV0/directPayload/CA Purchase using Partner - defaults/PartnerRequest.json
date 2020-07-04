@@ -1,0 +1,19 @@
+{
+    "id": "1234565456",
+    "date": "2018-10-11T15:18:27.000Z",
+    "currency": "CAD",
+    "grossOrNet": "N",
+    "saleorPurchase": "S",
+    "isCompanyDeferredTaxEnabled": "N",
+    "Items": [
+        {
+            "id": "999999",
+            "quantity": "1.000",
+            "unitPrice": "500.00",
+            "taxCategory": "PRODUCT_TAXES",
+            "taxCodeCountry": "CA",
+            "taxCode": "511",
+            "taxCodeRegion": "ON"
+        }
+    ]
+}

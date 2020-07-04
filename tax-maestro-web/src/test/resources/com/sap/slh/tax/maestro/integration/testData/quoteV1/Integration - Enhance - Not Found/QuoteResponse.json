@@ -1,0 +1,9 @@
+{
+    "status": 400,
+    "message": "The requested resource cannot be found.",
+    "errorDetails": [        
+        {
+            "message": "The value 'EXEMPT_PROD' is not a valid 'masterDataProductId'."
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "date": "2019-05-14T15:18:27.000Z",
+    "inclusive": "false",
+    "country": "GB",
+    "taxLines": [
+        {
+            "id": "1",
+            "country": "GB",
+            "taxcode": "",
+            "taxCodeLegalPhrase": "",
+            "taxValues": [
+                {
+                    "taxTypeCode": "1",
+                    "rate": "20.0",
+                    "taxable": "100.00",
+                    "value": "20.00",
+                    "dueCategory": "P",
+                    "isTaxDeferred": false,
+                    "withholdingRelevant": false
+                }
+            ]
+        }
+    ],
+    "partnerName": "Tax Service"
+}

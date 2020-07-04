@@ -1,0 +1,62 @@
+{
+	"id": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+	"date": "2019-09-05T18:39:49.00Z",
+	"transactionTypeCode": "SALE",
+	"companyInformation": {
+		"isDeferredTaxEnabled": false
+	},
+	"items": [
+		{
+			"id": "AAAAAA",
+			"assignedProductId": "1",
+			"assignedParties": [
+				{
+					"id": "1",
+					"role": "SHIP_FROM"
+				},
+				{
+					"id": "2",
+					"role": "SHIP_TO"
+				}
+			]
+		}
+	],
+	"products": [
+		{
+			"id": "1",
+			"typeCode": "MATERIAL",
+			"standardClassifications": [
+				{
+					"classificationSystem": "AAA",
+					"productCode": "AAAAAAAA"
+				}
+			]
+		}
+	],
+	"parties": [
+		{
+			"id": "1",
+			"countryRegionCode": "AR",
+			"subdivisionCode": "AA",
+			"taxRegistrations": [
+				{
+					"countryRegionCode": "AR",
+					"subdivisionCode": "AA",
+					"type": "AAAA"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"countryRegionCode": "AR",
+			"subdivisionCode": "BB",
+			"taxRegistrations": [
+				{
+					"countryRegionCode": "AR",
+					"subdivisionCode": "BB",
+					"type": "BBBB"
+				}
+			]
+		}
+	]
+}

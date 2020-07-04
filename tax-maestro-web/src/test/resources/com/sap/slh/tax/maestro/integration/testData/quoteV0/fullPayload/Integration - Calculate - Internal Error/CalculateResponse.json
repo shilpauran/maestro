@@ -1,0 +1,5 @@
+{
+  "status": "FAILURE",
+  "processingStatusCode": "INTERNAL_SERVER_ERROR",
+  "statusMessage": "Due to an internal service error, the request was not processed. Please check the log and try again later."
+}

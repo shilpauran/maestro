@@ -1,0 +1,5 @@
+{
+    "status": 503,
+    "type": "partner_did_not_resolve_taxes",
+    "message": "The SAP tax partner configured in destination 'VERTEX-CA' is unavailable or cannot process the payload request due to a high load. Contact your SAP tax partner."
+}

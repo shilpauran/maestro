@@ -1,0 +1,5 @@
+{
+    "status": 400,
+    "type": "invalid_input",
+    "message": "'Yes' is an invalid value for JSON parameter 'isCompanyDeferredTaxEnabled'. Use one of the following values: y, n, Y, N."
+}

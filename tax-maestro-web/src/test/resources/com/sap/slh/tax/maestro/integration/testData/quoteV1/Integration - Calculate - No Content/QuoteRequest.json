@@ -1,0 +1,57 @@
+{  
+   "id":"SO_1",
+   "date":"2018-09-04T10:58:14.000Z",
+   "transactionTypeCode":"SALE",
+   "amountTypeCode":"NET",
+   "currencyCode":"GBP",
+   "companyInformation": {
+      "assignedPartyId": "1"
+   },
+   "items":[  
+      {  
+         "id":"0010",
+         "assignedProductId":"1",
+         "quantity":1,
+         "unitPrice":100,
+         "assignedParties":[  
+            {  
+               "id":"1",
+               "role":"SHIP_FROM"
+            },
+            {  
+               "id":"2",
+               "role":"SHIP_TO"
+            }
+         ]
+      }
+   ],
+   "products":[  
+      {  
+         "id":"1",
+         "typeCode":"MATERIAL",
+         "taxClassifications": [{
+         	"countryRegionCode": "GB",
+         	"taxTypeCode": "1",
+            "exemptionReasonCode":"3"
+         }]
+      }
+   ],
+   "parties":[  
+      {  
+         "id":"1",
+         "countryRegionCode":"GB",
+         "subdivisionCode":"LND",
+         "city":"London",
+         "zipCode":"SW1A 2AA",
+         "address":"9 High Street"
+      },
+      {  
+         "id":"2",
+         "countryRegionCode":"GB",
+         "subdivisionCode":"LND",
+         "city":"London",
+         "zipCode":"EC4R 9AF",
+         "address":"47 King William St"
+      }
+   ]
+}

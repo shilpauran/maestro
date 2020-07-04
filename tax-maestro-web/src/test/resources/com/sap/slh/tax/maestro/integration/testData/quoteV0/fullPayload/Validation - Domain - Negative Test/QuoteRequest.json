@@ -1,0 +1,71 @@
+{
+    "id": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "date": "2019-09-05T18:39:49.00Z",
+    "saleorPurchase": "s",
+    "operationNatureCode": "AAAA",
+    "grossOrNet": "n",
+    "currency": "BRL",
+    "Items": [
+        {
+            "id": "AAAAAA",
+            "itemCode": "AAAAAAAAAAAA",
+            "itemType": "M",
+            "quantity": "-10.000",
+            "unitPrice": "-110.000000000000",
+            "itemClassifications": [
+                {
+                    "itemStandardClassificationSystemCode": "AAA",
+                    "itemStandardClassificationCode": "AAAAAAAA"
+                }
+            ],
+            "additionalItemInformation": [
+                {
+                    "type": "AAAAAAAAAAAAA",
+                    "information": "A"
+                }
+            ]
+        }
+    ],
+    "Locations": [
+        {
+            "type": "SHIP_FROM",
+            "addressLine1": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "zipCode": "AAAAAAAAA",
+            "city": "AAAAAAAAA",
+            "state": "AA",
+            "country": "AR"
+        },
+        {
+            "type": "SHIP_TO",
+            "addressLine1": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+            "zipCode": "BBBBBBBBB",
+            "city": "BBBBBBBBB",
+            "state": "BB",
+            "country": "AR"
+        }
+    ],
+    "Party": [
+        {
+            "id": "A",
+            "role": "SHIP_FROM",
+            "taxRegistration": [
+                {
+                    "locationType": "SHIP_FROM",
+                    "taxNumber": "AAAAAAAAAAAAAA",
+                    "taxNumberTypeCode": "AAAA"
+                }
+            ]
+        },
+        {
+            "id": "B",
+            "role": "SHIP_TO",
+            "taxRegistration": [
+                {
+                    "locationType": "SHIP_TO",
+                    "taxNumber": "BBBBBBBBBBBBBB",
+                    "taxNumberTypeCode": "BBBB"
+                }
+            ]
+        }
+    ]
+}

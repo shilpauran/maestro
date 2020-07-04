@@ -1,0 +1,4 @@
+{
+    "status": 400,
+    "message": "'true' is an invalid type for JSON parameter 'items[0].quantity'. Use type number."
+}

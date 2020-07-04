@@ -1,0 +1,6 @@
+{
+	"name": "VERTEX-CA",
+	"taxOperationCode": "QUOTE",
+	"url": "http://connector-dev.vertexconnectors.com:8098/sap-tax-service/TaxService/quote",
+	"validity": 86400
+}

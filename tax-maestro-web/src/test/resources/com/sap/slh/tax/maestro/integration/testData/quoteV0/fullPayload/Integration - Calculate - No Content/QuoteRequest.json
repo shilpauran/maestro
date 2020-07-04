@@ -1,0 +1,41 @@
+{
+  "id": "SO_1",
+  "date":"2019-05-14T15:18:27.000Z",
+  "saleorPurchase": "s",
+  "grossOrNet": "n",
+  "currency": "GBP",
+  "Items": [
+    {
+      "id": "0010",
+      "itemCode": "P1234353453",
+      "itemType": "m",
+      "quantity": 1,
+      "unitPrice": 100,
+      "exemptionDetails": [
+        {
+          "LocationType": "SHIP_FROM",
+          "exemptionCode": "3",
+          "taxType": "1"
+        }
+      ]
+    }
+  ],
+  "Locations": [
+    {
+      "type": "SHIP_FROM",
+      "addressLine1": "9 High Street",
+      "zipCode": "SW1A 2AA",
+      "city": "London",
+      "state": "LND",
+      "country": "GB"
+    },
+    {
+      "type": "SHIP_TO",
+      "addressLine1": "47 King William St",
+      "zipCode": "EC4R 9AF",
+      "city": "London",
+      "state": "LND",
+      "country": "GB"
+    }
+  ]
+}

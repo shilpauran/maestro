@@ -1,0 +1,5 @@
+{
+    "status": 400,
+    "type": "invalid_input",
+    "message": "The 'id' parameter is mandatory in a request, under 'Items'. The 'taxCode' parameter is mandatory in a request, under 'Items'."
+}

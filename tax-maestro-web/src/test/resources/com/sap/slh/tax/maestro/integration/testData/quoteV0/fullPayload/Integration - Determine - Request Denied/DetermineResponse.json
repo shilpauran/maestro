@@ -1,0 +1,5 @@
+{
+  "status": "REQUEST_DENIED",
+  "processingStatusCode": "AUTHENTICATION_FAILURE",
+  "statusMessage": "There was an authentication issue; please check the log."
+}

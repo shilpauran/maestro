@@ -1,0 +1,23 @@
+  
+{
+  "status": "PARTIAL_CONTENT",
+  "processingStatusCode": "TAX_ATTRIBUTES_PARTIALLY_FETCHED_WITH_ERRORS",
+  "statusMessage": "We could not fetch the tax attributes for all items in the request; please check the errors for details.",
+  "result": null,
+  "error": {
+    "errorId": "TAXDET-SB5WP0RFNH",
+    "details": [
+        {
+            "field": null,
+            "message": "detail1.",
+            "errorCode": null
+        },
+        {
+            "field": null,
+            "message": "detail2.",
+            "errorCode": null
+        }
+    ]
+  },
+  "warning": null
+}

@@ -1,0 +1,5 @@
+{
+    "status" : 404,
+    "type": "partner_did_not_resolve_taxes",
+    "message": "The SAP tax partner configured in destination 'TAXWEB-BR' is not found. Verify the configurations for Destinations in SAP Cloud Platform."
+}

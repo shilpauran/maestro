@@ -1,0 +1,34 @@
+{
+  "id": "E2EV0SCABCNTGST",
+  "date":"2019-05-14T15:18:27.000Z",
+  "saleorPurchase": "s",
+  "grossOrNet": "n",
+  "currency": "CAD",
+  "Items": [
+    {
+      "id": "1",
+      "itemCode": "P1234353453",
+      "itemType": "m",
+      "quantity": 1,
+      "unitPrice": 100
+    }
+  ],
+  "Locations": [
+    {
+      "type": "SHIP_FROM",
+      "addressLine1": "13040 Worster Ct",
+      "zipCode": "V6V 2B3",
+      "city": "Richmond",
+      "state": "BC",
+      "country": "CA"
+    },
+    {
+      "type": "SHIP_TO",
+      "addressLine1": "4902 Franklin Ave",
+      "zipCode": "X1A 0C1",
+      "city": "Yellowknife",
+      "state": "NT",
+      "country": "CA"
+    }
+  ]
+}

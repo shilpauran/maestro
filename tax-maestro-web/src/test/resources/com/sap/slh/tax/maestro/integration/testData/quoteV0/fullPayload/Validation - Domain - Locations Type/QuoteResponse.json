@@ -1,0 +1,5 @@
+{
+	"status": 400,
+	"type": "invalid_input",
+	"message": "'SHIP_T' is an invalid value for JSON parameter 'Locations[1].type'. Use one of the following values: SHIP_FROM, SHIP_TO, CONTRACT_FROM, CONTRACT_TO, SERVICE_LOCATION."
+}

@@ -1,0 +1,28 @@
+{
+  "date":"2019-05-14T15:18:27.000Z",
+  "inclusive": "false",
+  "country": "GB",
+  "taxLines": [
+    {
+      "id": "0010",
+      "country": "GB",
+      "taxcode": "505",
+      "taxCodeLegalPhrase": "Legal phrase for VAT",
+      "taxValues": [
+        {
+          "rate": "6",
+          "taxable": "100",
+          "value": "6",
+          "taxTypeCode": "2",
+          "dueCategory": "P",
+          "isTaxDeferred": false,
+          "withholdingRelevant": false,
+          "deductibleTaxAmount": "6",
+          "nonDeductibleTaxAmount": "0",
+          "nonDeductibleTaxRate": "0"
+        }
+      ]
+    }
+  ],
+  "partnerName": "Tax Service"
+}

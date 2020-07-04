@@ -1,0 +1,4 @@
+{
+    "status": 400,
+    "message": "'ship_from' is an invalid value for JSON parameter 'items[0].assignedParties[0].role'. Use one of the following values: SHIP_FROM, SHIP_TO, CONTRACT_FROM, CONTRACT_TO, SERVICE_LOCATION, BILL_FROM, BILL_TO."
+}

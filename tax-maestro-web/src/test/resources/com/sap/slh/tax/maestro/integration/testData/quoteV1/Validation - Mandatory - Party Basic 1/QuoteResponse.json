@@ -1,0 +1,15 @@
+{
+    "status": 400,
+    "message": "The format of your request is invalid, review your request.",
+    "errorDetails": [
+        {
+            "message": "The 'id' parameter is mandatory in a request, under 'parties'."
+        },
+        {
+            "message": "The 'countryRegionCode' parameter is mandatory in a request, under 'parties'."
+        },
+        {
+            "message": "Enter reference details for the 'assignedParties' parameter with the '2' ID, under 'items' 1."
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "status": 400,
+    "message": "The format of your request is invalid, review your request.",
+    "errorDetails": [
+        {
+            "message": "The 'classificationSystem' parameter is mandatory in a request, under 'standardClassifications', under 'products' 1."
+        },
+        {
+            "message": "The 'productCode' parameter is mandatory in a request, under 'standardClassifications', under 'products' 1."
+        }
+    ]
+}

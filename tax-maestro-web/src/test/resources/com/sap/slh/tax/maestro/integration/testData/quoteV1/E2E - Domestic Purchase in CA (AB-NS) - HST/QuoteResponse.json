@@ -1,0 +1,31 @@
+{
+    "id": "E2EV1PCAABNSHST",
+    "date": "2019-05-14T15:18:27.000Z",
+    "currencyCode": "CAD",
+    "amountTypeCode": "NET",
+    "items": [
+        {
+            "id": "1",
+            "countryRegionCode": "CA",
+            "subdivisionCode": "NS",
+            "taxEventCode": "14",
+            "taxEventLegalPhrase": "",
+            "taxes": [
+                {
+                    "taxTypeCode": "2",
+                    "taxRate": 15.0,
+                    "taxableBaseAmount": 100.00,
+                    "taxAmount": 15.00,
+                    "dueCategoryCode": "RECEIVABLE",
+                    "isTaxDeferred": false,
+                    "nonDeductibleTaxRate": 0.0,
+                    "deductibleTaxAmount": 15.00,
+                    "nonDeductibleTaxAmount": 0.00
+                }
+            ],
+            "additionalInformation": {
+                "taxCode": ""
+            }
+        }
+    ]
+}

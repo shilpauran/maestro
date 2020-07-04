@@ -1,0 +1,5 @@
+{
+  "status": "FAILURE",
+  "processingStatusCode": "TAX_ATTRIBUTES_DETERMINATION_FAILURE",
+  "statusMessage": "Due to an internal service error, we were not able to process your request. Please check the log and try again later."
+}

@@ -1,0 +1,4 @@
+{
+    "status": 400,
+    "message": "'y' is an invalid type for JSON parameter 'isTransactionWithinTaxReportingGroup'. Use type boolean."
+}

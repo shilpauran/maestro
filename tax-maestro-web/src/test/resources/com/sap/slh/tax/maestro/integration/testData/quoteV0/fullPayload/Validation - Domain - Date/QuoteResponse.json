@@ -1,0 +1,5 @@
+{
+	"status": 400,
+	"type": "invalid_input",
+	"message": "'2019-20-05T18:39:49.000Z' is an invalid type for JSON parameter 'date'. Use type java.util.Date."
+}

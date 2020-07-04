@@ -1,0 +1,12 @@
+{
+    "status": 400,
+    "message": "The format of your request is invalid, review your request.",
+    "errorDetails": [        
+        {
+            "message": "The document id must not be blank."
+        },
+        {
+            "message": "The item id must not be blank and must be between 1 and 32 characters."
+        }
+    ]
+}

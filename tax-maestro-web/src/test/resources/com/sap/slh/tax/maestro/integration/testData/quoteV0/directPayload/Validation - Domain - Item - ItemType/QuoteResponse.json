@@ -1,0 +1,5 @@
+{
+    "status": 400,
+    "type": "invalid_input",
+    "message": "'Service' is an invalid value for JSON parameter 'Items[1].itemType'. Use one of the following values: m, M, s, S."
+}

@@ -1,0 +1,10 @@
+{
+	"name": "TAXWEB-BR",
+	"taxOperationCode": "QUOTE",
+	"url": "http://taas.taxweb.com.br:9090/taxgateway/webapi/taxrules/calctaxessap",
+	"authorization": {
+		"tokenTypeCode": "BEARER",
+		"token": "21423452345234523465546546"
+	},
+	"validity": 86400
+}

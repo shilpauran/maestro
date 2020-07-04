@@ -1,0 +1,5 @@
+{
+    "status": 400,
+    "type": "invalid_input",
+    "message": "'PRODUCT_TAX' is an invalid value for JSON parameter 'Items[0].taxCategory'. Use one of the following values: PRODUCT_TAXES, WITHHOLDING."
+}

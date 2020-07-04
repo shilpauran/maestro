@@ -1,0 +1,46 @@
+{  
+   "id":"SO_1",
+   "date":"2018-09-04T10:58:14.000Z",
+   "transactionTypeCode":"SALE",
+   "companyInformation": {
+      "assignedPartyId": "1"
+   },
+   "items":[  
+      {  
+         "id":"0010",
+         "assignedProductId":"1",
+         "assignedParties":[  
+            {  
+               "id":"1",
+               "role":"SHIP_FROM"
+            },
+            {  
+               "id":"2",
+               "role":"SHIP_TO"
+            }
+         ]
+      }
+   ],
+   "products":[  
+      {  
+         "id":"1",
+         "typeCode":"MATERIAL"
+      },
+      {  
+         "id":"1",
+         "typeCode":"SERVICE"
+      }
+   ],
+   "parties":[  
+      {  
+         "id":"1",
+         "countryRegionCode":"GB",
+         "subdivisionCode":"LND"
+      },
+      {  
+         "id":"2",
+         "countryRegionCode":"GB",
+         "subdivisionCode":"LND"
+      }
+   ]
+}

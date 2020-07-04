@@ -1,0 +1,44 @@
+{
+    "total": "500.0",
+    "inclusive": "true",
+    "subTotal": "434.88",
+    "totalTax": "65.12",
+    "country": "CA",
+    "taxLines": [
+        {
+            "id": "999999",
+            "country": "CA",
+            "totalTax": "65.12",
+            "taxcode": "11",
+            "taxCodeDescription": "Regular QST Purchases",
+            "totalRate": "14.9750",
+            "taxValues": [
+                {
+                    "level": "COUNTRY",
+                    "taxTypeCode": "1",
+                    "name": "GST",
+                    "rate": "5.00",
+                    "taxable": "434.88",
+                    "value": "21.74",
+                    "jurisdiction": "CANADA",
+                    "jurisdictionCode": "8",
+                    "dueCategory": "R",
+                    "isTaxDeferred": false
+                },
+                {
+                    "level": "PROVINCE",
+                    "taxTypeCode": "4",
+                    "name": "QST",
+                    "rate": "9.97500",
+                    "taxable": "434.88",
+                    "value": "43.38",
+                    "jurisdiction": "QUEBEC",
+                    "jurisdictionCode": "44906",
+                    "dueCategory": "R",
+                    "isTaxDeferred": false
+                }
+            ]
+        }
+    ],
+    "date": "2018-10-11T00:00:00.000Z"
+}

@@ -1,0 +1,18 @@
+{
+  "status": 400,
+  "message": "The format of your request is invalid, review your request.",
+  "errorDetails": [
+    {
+      "message": "The 'transactionTypeCode' parameter is mandatory in a request."
+    },
+	{
+	  "message":"The 'amountTypeCode' parameter is mandatory in a request."
+	},    
+    {
+      "message": "The 'currencyCode' parameter is mandatory in a request."
+    },
+    {
+      "message": "The 'typeCode' parameter is mandatory in a request, under 'products' 1."
+    }
+  ]
+}

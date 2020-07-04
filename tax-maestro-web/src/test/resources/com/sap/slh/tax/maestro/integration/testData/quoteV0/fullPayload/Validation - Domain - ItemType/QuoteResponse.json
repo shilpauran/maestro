@@ -1,0 +1,5 @@
+{
+    "status": 400,
+    "type": "invalid_input",
+    "message": "'Mat' is an invalid value for JSON parameter 'Items[0].itemType'. Use one of the following values: m, M, s, S."
+}

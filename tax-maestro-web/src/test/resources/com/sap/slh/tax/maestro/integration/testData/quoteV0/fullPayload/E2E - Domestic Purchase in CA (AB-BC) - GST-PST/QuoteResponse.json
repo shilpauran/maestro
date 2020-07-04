@@ -1,0 +1,40 @@
+{
+    "date": "2019-05-14T15:18:27.000Z",
+    "inclusive": "false",
+    "country": "CA",
+    "taxLines": [
+        {
+            "id": "1",
+            "country": "CA",
+            "taxcode": "",
+            "taxCodeLegalPhrase": "",
+            "taxValues": [
+                {
+                    "taxTypeCode": "1",
+                    "rate": "5.0",
+                    "taxable": "100.00",
+                    "value": "5.00",
+                    "nonDeductibleTaxRate": "0.0",
+                    "nonDeductibleTaxAmount": "0.00",
+                    "deductibleTaxAmount": "5.00",
+                    "dueCategory": "R",
+                    "isTaxDeferred": false,
+                    "withholdingRelevant": false
+                },
+                {
+                    "taxTypeCode": "3",
+                    "rate": "7.0",
+                    "taxable": "100.00",
+                    "value": "7.00",
+                    "nonDeductibleTaxRate": "100.0",
+                    "nonDeductibleTaxAmount": "7.00",
+                    "deductibleTaxAmount": "0.00",
+                    "dueCategory": "R",
+                    "isTaxDeferred": false,
+                    "withholdingRelevant": false
+                }
+            ]
+        }
+    ],
+    "partnerName": "Tax Service"
+}

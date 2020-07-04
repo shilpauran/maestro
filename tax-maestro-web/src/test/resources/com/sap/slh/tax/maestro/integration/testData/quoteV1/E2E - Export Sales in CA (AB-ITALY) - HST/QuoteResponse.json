@@ -1,0 +1,28 @@
+{
+    "id": "11111101",
+    "date": "2019-05-14T15:18:27.000Z",
+    "currencyCode": "CAD",
+    "amountTypeCode": "NET",
+    "items": [
+        {
+            "id": "1",
+            "countryRegionCode": "CA",
+            "subdivisionCode": "ON",
+            "taxEventCode": "503",
+            "taxEventLegalPhrase": "",
+            "taxes": [
+                {
+                    "taxTypeCode": "2",
+                    "taxRate": 0.0,
+                    "taxableBaseAmount": 100.00,
+                    "taxAmount": 0.00,
+                    "dueCategoryCode": "PAYABLE",
+                    "isTaxDeferred": false
+                }
+            ],
+            "additionalInformation": {
+                "taxCode": ""
+            }
+        }
+    ]
+}

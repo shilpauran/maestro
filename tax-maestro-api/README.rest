@@ -1,0 +1,65 @@
+.. written using http://docutils.sourceforge.net/docs/user/rst/quickref.html
+.. for sections http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#sections
+
+.. |tax-maestro| replace:: **tax-maestro**
+.. |tax-calculator| replace:: **tax-calculator**
+.. |tax-determiner| replace:: **tax-determiner**
+
+#############
+Client Models
+#############
+
+This repository contains the models used on the communications between the microservices that are part of the `SAP Localization Hub, Tax Service`_.
+
+.. contents::
+   :depth: 2
+   :local:
+
+Models
+******
+
+To run the unit tests of the models use :code:`mvn test`.
+
+Tax Calculator
+==============
+
+Under constructions
+
+Tax Maestro
+===========
+
+These are the models used not only as request and response for the |tax-maestro| REST endpoint but also to handle data internally.
+
+All the models are implemented using the `Builder pattern`_ that is used for both creating new objects and for deserialization by `Jackson`_, e.g.:
+
+.. code:: java
+
+  Item.builder()
+    .withId("id")
+    .withItemCode("itemCode")
+    .withQuantity(new BigDecimal(1))
+    .withUnitPrice(new BigDecimal(2))
+    .withShippingCost("shippingCost")
+    .withItemType(ItemType.M)
+    .withExemptionDetails(new ArrayList<ExemptionDetail>())
+    .withCertificateId("1")
+    .withItemClassifications(new ArrayList<ItemClassification>())
+    .withAdditionalItemInformation(new ArrayList<AdditionalItemInformation>())
+    .withCostInformation(new ArrayList<CostInformation>())
+    .withTaxCategory(TaxCategory.PRODUCT_TAXES)
+    .withTaxCodeCountry(CountryCode.BR)
+    .withTaxCode("taxCode")
+    .withTaxCodeRegion("taxCodeRegion").build();
+
+Also all models contain a :code:`validate()` method that will validate the current state of the object and throw a :code:`MandatoryAttributeMissingException` it's in a invalid state, e.g.:
+
+.. code:: java
+
+  Address.builder().build().validate();
+
+The :code:`MandatoryAttributeMissingException` have a :code:`getMissingAttributes()` that return all the missing attributes from the validation.
+
+
+.. _`SAP Localization Hub, Tax Service`: https://cloudplatform.sap.com/capabilities/product-info.SAP-Localization-Hub-Tax-Service.06caed1a-af29-43d6-a070-b2cd0c4e4c44.html
+.. _`Builder pattern`: https://en.wikipedia.org/wiki/Builder_pattern
+.. _`Jackson`: https://github.com/FasterXML/jackson

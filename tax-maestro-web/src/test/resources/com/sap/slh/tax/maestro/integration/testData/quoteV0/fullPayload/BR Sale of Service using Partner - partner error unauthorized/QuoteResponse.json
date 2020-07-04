@@ -1,0 +1,5 @@
+{
+    "status" : 401,
+    "type": "partner_did_not_resolve_taxes",
+    "message": "The SAP tax partner configured in the 'TAXWEB-BR' destination did not authorize the connection from the tax service. Verify the configurations for Destinations in SAP Cloud Platform."
+}

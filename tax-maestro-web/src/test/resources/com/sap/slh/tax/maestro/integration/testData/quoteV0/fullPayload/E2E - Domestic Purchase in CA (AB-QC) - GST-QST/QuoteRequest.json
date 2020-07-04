@@ -1,0 +1,34 @@
+{
+  "id": "E2EV0PCAABQCGSTQST",
+  "date":"2019-05-14T15:18:27.000Z",
+  "saleorPurchase": "p",
+  "grossOrNet": "n",
+  "currency": "CAD",
+  "Items": [
+    {
+      "id": "1",
+      "itemCode": "P1234353453",
+      "itemType": "m",
+      "quantity": 1,
+      "unitPrice": 100
+    }
+  ],
+  "Locations": [
+    {
+      "type": "SHIP_FROM",
+      "addressLine1": "4440 78 Ave SE",
+      "zipCode": "T2C 2T5",
+      "city": "Calgary",
+      "state": "AB",
+      "country": "CA"
+    },
+    {
+      "type": "SHIP_TO",
+      "addressLine1": "2655 Rue de Celles",
+      "zipCode": "G2C 1K7",
+      "city": "Quebec",
+      "state": "QC",
+      "country": "CA"
+    }
+  ]
+}

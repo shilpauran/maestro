@@ -1,0 +1,217 @@
+{
+	"id": "123",
+	"date": "2018-03-29T10:58:14.000Z",
+	"saleorPurchase": "s",
+	"operationNatureCode": "S",
+	"grossOrNet": "n",
+	"currency": "BRL",
+	"Items": [
+		{
+			"id": "000010",
+			"itemCode": "SERV-SECU",
+			"itemType": "S",
+			"quantity": "1.000",
+			"unitPrice": "100.000000000000",
+			"itemClassifications": [
+				{
+					"itemStandardClassificationSystemCode": "servTypeExec",
+					"itemStandardClassificationCode": "07870"
+				},
+				{
+					"itemStandardClassificationSystemCode": "servTypeFed",
+					"itemStandardClassificationCode": "11.02"
+				},
+				{
+					"itemStandardClassificationSystemCode": "servTypeFrom",
+					"itemStandardClassificationCode": "11.02"
+				}
+			]
+		}
+	],
+	"Locations": [
+		{
+			"type": "CONTRACT_FROM",
+			"addressLine1": "Avenida Carlos Gomes 222",
+			"zipCode": "90480-000",
+			"city": "Porto Alegre",
+			"state": "RS",
+			"country": "BR"
+		},
+		{
+			"type": "CONTRACT_TO",
+			"addressLine1": "V DE ACESSO KM 305 SN",
+			"zipCode": "04008-011",
+			"city": "São Paulo",
+			"state": "SP",
+			"country": "BR"
+		},
+		{
+			"type": "SERVICE_LOCATION",
+			"addressLine1": "V DE ACESSO KM 305 SN",
+			"zipCode": "04008-011",
+			"city": "São Paulo",
+			"state": "SP",
+			"country": "BR"
+		}
+	],
+	"Party": [
+		{
+			"id": "1",
+			"role": "CONTRACT_FROM",
+			"taxRegistration": [
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "2063100",
+					"taxNumberTypeCode": "CNAE"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "74544297000192",
+					"taxNumberTypeCode": "CNPJ"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "Y",
+					"taxNumberTypeCode": "COFINSContributor"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "N",
+					"taxNumberTypeCode": "CPOM"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "4314902",
+					"taxNumberTypeCode": "IBGECode"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "Y",
+					"taxNumberTypeCode": "ICMSContributor"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "Y",
+					"taxNumberTypeCode": "ICMSSTContributor"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "0240043251",
+					"taxNumberTypeCode": "IE"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "0625664110066",
+					"taxNumberTypeCode": "IM"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "Y",
+					"taxNumberTypeCode": "IPIContributor"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "Y",
+					"taxNumberTypeCode": "ISSContributor"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "2062",
+					"taxNumberTypeCode": "legalNature"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "Y",
+					"taxNumberTypeCode": "PISContributor"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "Real Profit",
+					"taxNumberTypeCode": "taxDeclarationType"
+				},
+				{
+					"locationType": "CONTRACT_FROM",
+					"taxNumber": "3",
+					"taxNumberTypeCode": "taxRegimenCode"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"role": "CONTRACT_TO",
+			"taxRegistration": [
+				{
+					"locationType": "CONTRACT_TO",
+					"taxNumber": "2063100",
+					"taxNumberTypeCode": "CNAE"
+				},
+				{
+					"locationType": "CONTRACT_TO",
+					"taxNumber": "00190373000172",
+					"taxNumberTypeCode": "CNPJ"
+				},
+				{
+					"locationType": "CONTRACT_TO",
+					"taxNumber": "Y",
+					"taxNumberTypeCode": "COFINSContributor"
+				},
+				{
+					"locationType": "CONTRACT_TO",
+					"taxNumber": "3550308",
+					"taxNumberTypeCode": "IBGECode"
+				},
+				{
+					"locationType": "CONTRACT_TO",
+					"taxNumber": "Y",
+					"taxNumberTypeCode": "ICMSContributor"
+				},
+				{
+					"locationType": "CONTRACT_TO",
+					"taxNumber": "Y",
+					"taxNumberTypeCode": "ICMSSTContributor"
+				},
+				{
+					"locationType": "CONTRACT_TO",
+					"taxNumber": "241022419113",
+					"taxNumberTypeCode": "IE"
+				},
+				{
+					"locationType": "CONTRACT_TO",
+					"taxNumber": "Y",
+					"taxNumberTypeCode": "IPIContributor"
+				},
+				{
+					"locationType": "CONTRACT_TO",
+					"taxNumber": "N",
+					"taxNumberTypeCode": "ISSContributor"
+				},
+				{
+					"locationType": "CONTRACT_TO",
+					"taxNumber": "2046",
+					"taxNumberTypeCode": "legalNature"
+				},
+				{
+					"locationType": "CONTRACT_TO",
+					"taxNumber": "Y",
+					"taxNumberTypeCode": "PISContributor"
+				},
+				{
+					"locationType": "CONTRACT_TO",
+					"taxNumber": "3",
+					"taxNumberTypeCode": "taxRegimenCode"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"role": "SERVICE_LOCATION",
+			"taxRegistration": [
+				{
+					"locationType": "SERVICE_LOCATION",
+					"taxNumber": "3550308",
+					"taxNumberTypeCode": "IBGECode"
+				}
+			]
+		}
+	]
+}

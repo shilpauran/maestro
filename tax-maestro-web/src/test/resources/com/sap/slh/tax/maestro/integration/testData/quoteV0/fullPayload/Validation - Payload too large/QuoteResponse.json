@@ -1,0 +1,5 @@
+{
+    "status": 413,
+    "type": "invalid_input",
+    "message": "The JSON file of your payload request is too large. Reduce its size and send  the request again. For more information see Protection Against Denial-of-Service (DoS) Attacks."
+}

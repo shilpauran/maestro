@@ -1,0 +1,30 @@
+{
+  "id": "SO_1",
+  "date": "2018-09-04T10:58:14.000Z",
+  "currencyCode": "GBP",
+  "amountTypeCode": "NET",
+  "items": [
+    {
+      "id": "0010",
+      "countryRegionCode": "GB",
+      "subdivisionCode": "WLS",
+      "taxEventCode": "330",
+      "taxes": [
+        {
+          "taxTypeCode": "2",
+          "taxRate": 5,
+          "taxableBaseAmount": 100,
+          "taxAmount": 5,
+          "dueCategoryCode": "PAYABLE",
+          "isTaxDeferred": false,
+          "deductibleTaxAmount": 0,
+          "nonDeductibleTaxAmount": 5,
+          "nonDeductibleTaxRate":100          
+        }
+      ],
+      "additionalInformation": {
+        "taxCode": "505"
+      }
+    }
+  ]
+}

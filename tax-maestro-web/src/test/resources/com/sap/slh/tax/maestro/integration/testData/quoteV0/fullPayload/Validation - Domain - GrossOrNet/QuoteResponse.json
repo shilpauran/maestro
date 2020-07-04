@@ -1,0 +1,5 @@
+{
+    "status": 400,
+    "type": "invalid_input",
+    "message": "'net' is an invalid value for JSON parameter 'grossOrNet'. Use one of the following values: g, n, G, N."
+}

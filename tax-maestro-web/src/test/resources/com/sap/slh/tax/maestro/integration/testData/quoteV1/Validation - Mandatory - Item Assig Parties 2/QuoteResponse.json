@@ -1,0 +1,9 @@
+{
+    "status": 400,
+    "message": "The format of your request is invalid, review your request.",
+    "errorDetails": [
+        {
+            "message": "The 'assignedProductId' parameter is mandatory in a request, under 'items' 1."
+        }
+    ]
+}

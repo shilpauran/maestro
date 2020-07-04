@@ -1,0 +1,5 @@
+{
+	"status": 400,
+	"type": "invalid_input",
+	"message": "Tax Service calculation engine currently does not support direct payload requests. To calculate the taxes using the direct payload request, you can contract an SAP tax partner that supports this feature."
+}

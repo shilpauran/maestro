@@ -1,0 +1,52 @@
+{
+    "id": "E2EV1SCAABMBGSTPST",
+    "date": "2019-05-14T15:18:27.000Z",
+    "transactionTypeCode": "SALE",
+    "amountTypeCode": "NET",
+    "currencyCode": "CAD",
+    "companyInformation": {
+      "assignedPartyId": "1"
+    },
+    "items": [
+        {
+            "id": "1",
+            "assignedProductId": "1",
+            "quantity": 1,
+            "unitPrice": 100,
+            "assignedParties": [
+                {
+                    "id": "1",
+                    "role": "SHIP_FROM"
+                },
+                {
+                    "id": "2",
+                    "role": "SHIP_TO"
+                }
+            ]
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "typeCode": "MATERIAL"
+        }
+    ],
+    "parties": [
+        {
+            "id": "1",
+            "countryRegionCode": "CA",
+            "subdivisionCode": "AB",
+            "city": "Calgary",
+            "zipCode": "T2C 2T5",
+            "address": "4440 78 Ave SE"
+        },
+        {
+            "id": "2",
+            "countryRegionCode": "CA",
+            "subdivisionCode": "MB",
+            "city": "Winnipeg",
+            "zipCode": "R3Y 1G4",
+            "address": "40 Scurfield Blvd"
+        }
+    ]
+}

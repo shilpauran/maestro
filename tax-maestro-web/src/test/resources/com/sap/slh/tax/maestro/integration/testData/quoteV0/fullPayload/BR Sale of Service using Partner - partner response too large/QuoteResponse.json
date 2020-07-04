@@ -1,0 +1,5 @@
+{
+	"status": 413,
+	"type": "invalid_input",
+	"message": "SAP tax partner payload response is too large for the tax service to process. The payload response is returned by the SAP tax partner configured in the 'TAXWEB-BR' destination. There are two possible causes for this problem: 1. Your payload request is too large. 2. There is an error in the SAP tax partner. Review your payload request and if the error persists, contact your SAP tax partner."
+}

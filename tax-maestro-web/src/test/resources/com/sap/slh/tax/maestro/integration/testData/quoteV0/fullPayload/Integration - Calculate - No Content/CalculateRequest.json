@@ -1,0 +1,24 @@
+{
+  "id": "SO_1",
+  "date": "2019-05-14T15:18:27.000Z",
+  "amountTypeCode": "NET",
+  "currencyCode": "GBP",
+  "items": [
+    {
+      "id": "0010",
+      "quantity": 1,
+      "unitPrice": 100,
+      "countryRegionCode": "GB",
+      "taxEventCode": "330",
+      "taxes": [
+        {
+          "id": "1",
+          "taxTypeCode": "2",
+          "taxRate": 6,
+          "dueCategoryCode": "PAYABLE",
+          "nonDeductibleTaxRate": 0
+        }
+      ]
+    }
+  ]
+}

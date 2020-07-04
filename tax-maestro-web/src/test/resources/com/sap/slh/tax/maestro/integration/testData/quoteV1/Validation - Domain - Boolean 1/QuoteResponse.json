@@ -1,0 +1,4 @@
+{
+    "status": 400,
+    "message": "'1' is an invalid type for JSON parameter 'companyInformation.isDeferredTaxEnabled'. Use type boolean."
+}

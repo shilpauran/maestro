@@ -1,0 +1,10 @@
+{
+    "id": "11111101",
+    "date": "2019-05-14T15:18:27.000Z",
+    "transactionTypeCode": "PURCHASE",
+    "amountTypeCode": "NET",
+    "currencyCode": "CAD",    
+    "items": [],
+    "products": [],
+    "parties": []
+}

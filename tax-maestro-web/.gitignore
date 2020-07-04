@@ -1,0 +1,36 @@
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
+/bin
+/.gradle/
+
+.checkstyle
+
+# Single cucumber runner
+src/test/java/com/sap/slh/tax/maestro/integration/CucumberSingleRunner.java
+src/test/java/com/sap/slh/tax/maestro/integration/CucumberSingleRunnerTest.java

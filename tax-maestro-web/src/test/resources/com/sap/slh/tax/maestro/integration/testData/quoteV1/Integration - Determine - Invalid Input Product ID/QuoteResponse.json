@@ -1,0 +1,9 @@
+{
+    "status": 400,
+    "message": "The format of your request is invalid, review your request.",
+    "errorDetails": [        
+        {
+            "message": "The ID for this product is already taken. Please use a product ID that is unique."
+        }
+    ]
+}

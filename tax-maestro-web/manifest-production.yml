@@ -1,0 +1,14 @@
+---
+applications:
+  - name: tax-maestro
+    path: target/tax-maestro-web.jar
+    disk_quota: 1G
+    instances: 1
+    memory: 1G  
+    routes:
+      - route: tax-service.cfapps.((region)).hana.ondemand.com/tax
+    services:
+      - dynatrace
+      - rabbitmq
+      - xsuaa
+      - application-logs

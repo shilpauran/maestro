@@ -1,0 +1,5 @@
+{
+    "status": 400,
+    "type": "invalid_input",
+	"message": "You cannot have different values for the 'taxCodeCountry' parameter in the same payload request. Create one payload request to each value in the 'taxCodeCountry' parameter, under 'Items'."
+}

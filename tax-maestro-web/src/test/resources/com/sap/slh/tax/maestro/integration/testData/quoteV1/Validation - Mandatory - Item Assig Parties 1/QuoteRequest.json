@@ -1,0 +1,42 @@
+{
+	"id": "11111101",
+    "date": "2019-05-14T15:18:27.000Z",
+    "transactionTypeCode": "PURCHASE",
+    "amountTypeCode": "NET",
+    "currencyCode": "CAD",
+    "companyInformation": {
+       "assignedPartyId": "2"
+    },    
+    "items": [
+        {
+            "id": "1",
+            "assignedProductId": "1",
+            "quantity": 1,
+            "assignedParties": []
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "typeCode": "MATERIAL"
+        }
+    ],
+    "parties": [
+        {
+            "id": "1",
+            "countryRegionCode": "CA",
+            "subdivisionCode": "AB",
+            "city": "Calgary",
+            "zipCode": "T2C 2T5",
+            "address": "4440 78 Ave SE"
+        },
+        {
+            "id": "2",
+            "countryRegionCode": "CA",
+            "subdivisionCode": "ON",
+            "city": "Brockville",
+            "zipCode": "K6V 7N5",
+            "address": "60 California Ave"
+        }
+    ]
+}

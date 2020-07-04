@@ -1,0 +1,9 @@
+{
+	"name": "TAXENGINEMOCK",
+	"taxOperationCode": "QUOTE",
+	"url": "https://tax-engine-mock-dev.internal.cfapps.sap.hana.ondemand.com/tax/v0/quote",
+	"authorization": {
+		"tokenTypeCode": "NONE"
+	},
+	"validity": 86400
+}

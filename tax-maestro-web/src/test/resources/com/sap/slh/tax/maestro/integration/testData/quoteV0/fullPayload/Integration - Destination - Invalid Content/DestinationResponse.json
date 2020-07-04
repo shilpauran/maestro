@@ -1,0 +1,4 @@
+{
+  "status": 400,
+  "message": "There is more than one Destination that matches the 'GB' countryRegion code. Verify the configurations for Destinations in SAP Cloud Platform."
+}

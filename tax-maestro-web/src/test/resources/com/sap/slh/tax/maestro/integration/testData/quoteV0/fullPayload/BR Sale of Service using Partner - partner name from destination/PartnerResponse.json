@@ -1,0 +1,58 @@
+{
+	"id": "123",
+	"date": "2018-03-29T10:58:14Z",
+	"total": "112.67",
+	"subTotal": "112.67",
+	"totalTax": "112.67",
+	"taxLines": [
+		{
+			"id": "000010",
+			"totalTax": "12.67",
+			"taxcode": "6933",
+			"taxValues": [
+				{
+					"rate": "1.65",
+					"taxable": "112.67",
+					"taxTypeCode": "PIS",
+					"name": "Programa de Integração Social",
+					"value": "1.86",
+					"exemptedBasePercent": "0.00",
+					"exemptedBaseAmount": "0.00",
+					"otherBaseAmount": "0.00",
+					"taxAttributes": [
+						{
+							"attributeType": "CST",
+							"attributeValue": "01"
+						}
+					]
+				},
+				{
+					"rate": "7.60",
+					"taxable": "112.67",
+					"taxTypeCode": "COFINS",
+					"name": "Contribuição para o Financiamento da Seguridade Social",
+					"value": "8.56",
+					"exemptedBasePercent": "0.00",
+					"exemptedBaseAmount": "0.00",
+					"otherBaseAmount": "0.00",
+					"taxAttributes": [
+						{
+							"attributeType": "CST",
+							"attributeValue": "01"
+						}
+					]
+				},
+				{
+					"rate": "2.00",
+					"taxable": "112.67",
+					"taxTypeCode": "ISS-EXEC-WHT",
+					"name": "ISS devido ao município de prestação do serviço.",
+					"value": "2.25",
+					"exemptedBasePercent": "0.00",
+					"exemptedBaseAmount": "0.00",
+					"otherBaseAmount": "0.00"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+general:
+  githubTokenCredentialsId: Github-Token-GS-SI-SLE-CI
+  uploadUrl: https://github.wdf.sap.corp/api/uploads/
+
+  whitesourceUserTokenCredentialsId: WhitesourceTokenCredentialsId_I827040
+  whitesourceProductToken: '717e85e5718e4fbba69111055dabc4dbdb5483cb8b9c45ffbf78f84ab124ecb3'
+  whitesourceProductName: 'SHC - SLHTAX-TAX MAESTRO 200'
+  ppmsCredentialsId: PPMS_Credentials_Id
+  ppmsID: '73554900100200014312'
+
+steps:
+  executeBuild:
+    xMakeShipmentType: indirectshipment
+
+  executeFortifyScan:
+    fortifyCredentialsId: Fortify_Credentials_ID_I827040
+
+  executeFortifyAuditStatusCheck:
+    fortifyCredentialsId: Fortify_Credentials_ID_I827040
+
+  sapCumulusUpload:
+    cumulusFileCredentialsId: 'tax-pipeline-storage-token'

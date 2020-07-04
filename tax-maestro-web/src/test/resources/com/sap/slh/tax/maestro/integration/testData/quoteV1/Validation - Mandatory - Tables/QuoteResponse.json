@@ -1,0 +1,18 @@
+{
+	"status": 400,
+	"message": "The format of your request is invalid, review your request.",
+	"errorDetails": [
+		{
+			"message": "The 'companyInformation' parameter is mandatory in a request."
+		},
+		{
+			"message": "The 'items' parameter is mandatory in a request."
+		},
+		{
+			"message": "The 'products' parameter is mandatory in a request."
+		},
+		{
+			"message": "The 'parties' parameter is mandatory in a request."
+		}
+	]
+}

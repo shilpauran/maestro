@@ -1,0 +1,5 @@
+{
+    "status": 400,
+    "type": "invalid_input",
+    "message": "The 'quantity' parameter is mandatory in a request, under 'Items' 999999. The 'unitPrice' parameter is mandatory in a request, under 'Items' 999999. The 'taxCodeCountry' parameter is mandatory in a request, under 'Items' 999999. The 'taxCategory' parameter is mandatory in a request, under 'Items' 999999."
+}

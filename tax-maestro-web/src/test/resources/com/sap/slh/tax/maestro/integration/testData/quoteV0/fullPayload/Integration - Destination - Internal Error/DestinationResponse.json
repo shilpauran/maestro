@@ -1,0 +1,4 @@
+{
+  "status": 500,
+  "message": "Authentication URL provided in the JWT is malformed."
+}

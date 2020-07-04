@@ -1,0 +1,17 @@
+{
+    "id": "E2EV0WHITELIST",
+    "date": "2018-10-11T15:18:27.000Z",
+    "saleorPurchase": "P",
+    "grossOrNet": "g",
+    "currency": "JMD",
+    "Items": [
+        {
+            "id": "999999",
+            "taxCategory": "PRODUCT_TAXES",
+            "taxCodeCountry": "DO",
+            "taxCode": "1",
+            "quantity": "1.000",
+            "unitPrice": "500.00"
+        }
+    ]
+}

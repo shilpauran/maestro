@@ -1,0 +1,31 @@
+{
+  "id": "SO_1",
+  "date": "2018-09-04T10:58:14.000Z",
+  "currencyCode": "GBP",
+  "amountTypeCode": "NET",
+  "items": [
+    {
+      "id": "0010",
+      "countryRegionCode": "GB",
+      "subdivisionCode": "WLS",
+      "taxEventCode": "330",
+      "taxEventLegalPhrase": "Legal phrase for VAT",
+      "taxes": [
+        {
+          "taxTypeCode": "1",
+          "taxRate": 9.975,
+          "taxableBaseAmount": 100,
+          "taxAmount": 9.975,
+          "dueCategoryCode": "PAYABLE",
+          "isTaxDeferred": false,
+          "deductibleTaxAmount": 4.9875,
+          "nonDeductibleTaxAmount": 4.9875,
+          "nonDeductibleTaxRate": 50
+        }
+      ],
+      "additionalInformation": {
+        "taxCode": "505"
+      }
+    }
+  ]
+}
