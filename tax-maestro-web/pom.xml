@@ -56,7 +56,7 @@
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-core</artifactId>
-			<version>5.2.4.RELEASE</version>
+			<version>5.2.11.RELEASE</version>
 		</dependency>
 
 		<!--comes from spring-boot-dependencies:2.2.4. This explicit declaration can be
