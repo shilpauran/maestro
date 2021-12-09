@@ -14,7 +14,7 @@
 	</parent>
 
     <properties>
-        <jackson.version>2.9.10</jackson.version>
+        <jackson.version>2.9.10.8</jackson.version>
         <swagger.version>1.5.20</swagger.version>
     </properties>
 
@@ -28,7 +28,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>${jackson.version}-sap-02</version>
+			<version>${jackson.version}</version>
 		</dependency>
 
 		<dependency>
